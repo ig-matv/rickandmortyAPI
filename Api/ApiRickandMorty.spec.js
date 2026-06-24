@@ -14,7 +14,7 @@ test('Buscar personagens',async({request})=>{
 })
 test('Buscar personagem especifico',async({request})=>{
   const response = await request.get(
-    'https://rickandmortyapi.com/api/character/1'
+    'https://rickandmortyapi.com/api/character1'
   )
   expect(response.status()).toBe(200)
 
